@@ -482,3 +482,9 @@ padding: 2rem;
   background-color: var(--colors--cornflower-blue);
   cursor: pointer;
 }
+
+.rich-text-number {
+  color: var(--colors--cornflower-blue-light);
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
