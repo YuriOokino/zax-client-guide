@@ -291,6 +291,10 @@ button:hover, .button:hover, input[type="submit"]:hover {
   object-fit: cover;
 }
 
+.gallery21_image-wrapper:hover {
+  box-shadow: 8px 8px 0px 0px white;
+}
+
 .gallery21_slide h4 {
   color: var(--colors--white);
   margin: 0;

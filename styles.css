@@ -61,28 +61,20 @@
   --border-color--border-primary: black;
 
   /* Color schemes variables */
-  --color-scheme-1--accent: #000;
-  --color-scheme-1--background: #fff;
-  --color-scheme-1--border: #000;
-  --color-scheme-1--foreground: #fff;
-  --color-scheme-1--text: #000;
+  --color-scheme-1--accent: var(--colors--neutral-darkest);
+  --color-scheme-1--background: var(--colors--white);
+  --color-scheme-1--text: var(--colors--neutral-darkest);
 
-  --color-scheme-2--accent: #eded4a;
-  --color-scheme-2--background: #8067f3;
-  --color-scheme-2--border: #fff;
-  --color-scheme-2--foreground: #8067f3;
+  --color-scheme-2--accent: var(--colors--starship);
+  --color-scheme-2--background: var(--colors--cornflower-blue);
   --color-scheme-2--text: #fff;
 
-  --color-scheme-3--accent: #eded4a;
+  --color-scheme-3--accent: var(--colors--starship);
   --color-scheme-3--background: #000;
-  --color-scheme-3--border: #fff;
-  --color-scheme-3--foreground: #000;
   --color-scheme-3--text: #fff;
 
   --color-scheme-4--accent: #000;
-  --color-scheme-4--background: #eded4a;
-  --color-scheme-4--border: #000;
-  --color-scheme-4--foreground: #eded4a;
+  --color-scheme-4--background: var(--colors--starship-light);
   --color-scheme-4--text: #000;
 }
 
