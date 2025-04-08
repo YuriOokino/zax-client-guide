@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>zax cms guide</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="styles.css" rel="stylesheet">
+    <link href="component-styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="global-styles">
+            <div class="style-overrides">
+                <!-- Content structure preserved but styles removed -->
+            </div>
+        </div>
+        <div role="banner" class="navbar6_component color-scheme-3">
+            <div class="navbar6_container">
+                <h5 class="text-color-accent">Editor Onboarding</h5>
+                <nav role="navigation" class="navbar6_menu">
+                    <div class="navbar6_menu-left">
+                        <a href="#start">Start</a>
+                        <a href="#learn">Learn</a>
+                        <a href="#create">Create</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <main class="main-wrapper">
+            <section id="hero" class="color-scheme-2">
+                <div class="padding-global">
+                    <div class="container-large">
+                        <div class="padding-section-large">
+                            <div class="contact5_component">
+                                <div class="contact5_content">
+                                    <div class="contact5_content-left">
+                                        <div class="contact5_heading-wrapper">
+                                            <div class="margin-bottom">
+                                                <div class="text-style-tagline">Your CMS Guide</div>
+                                            </div>
+                                            <div class="margin-bottom">
+                                                <h1>Managing your website</h1>
+                                            </div>
+                                            <p>This guide explains how to update and manage content on your website using Webflow's Editor and CMS. It covers both static content and dynamic content managed through Collections.</p>
+                                        </div>
+                                    </div>
+                                    <div class="contact5_form-block">
+                                        <form id="Contact-Form" name="Contact-Form" method="get">
+                                            <h4>Need help?</h4>
+                                            <div class="form_field-wrapper">
+                                                <label for="name">Your name</label>
+                                                <input class="form_input" maxlength="256" name="name" type="text" id="name" required=""/>
+                                            </div>
+                                            <div class="form_field-wrapper">
+                                                <label for="email">Your email</label>
+                                                <input class="form_input" maxlength="256" name="email" type="email" id="email" required=""/>
+                                            </div>
+                                            <div class="form_field-wrapper">
+                                                <label for="message">How can I help?</label>
+                                                <textarea id="message" name="message" maxlength="5000" placeholder="Type your message..." required=""></textarea>
+                                            </div>
+                                            <input class="button" type="submit" value="Submit"/>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section color-scheme-3">
+                <div class="padding-global">
+                    <div class="container-large">
+                        <div class="padding-section-large">
+                            <div class="content12_component">
+                                <div class="content12_content-wrapper">
+                                    <div class="content12_metatag-list">
+                                        <a href="#start" class="content12_metatag-item">
+                                            <h1 class="metatag-item_number text-color-accent">1.</h1>
+                                            <div class="metatag-item-text">
+                                                <div class="margin-bottom">
+                                                    <h4>Getting started</h4>
+                                                </div>
+                                                <p>Logging in to your CMS—and getting back to it.</p>
+                                            </div>
+                                        </a>
+                                        <a href="#learn" class="content12_metatag-item">
+                                            <h1 class="metatag-item_number text-color-accent">2.</h1>
+                                            <div class="metatag-item-text">
+                                                <div class="margin-bottom">
+                                                    <h4>Know your CMS</h4>
+                                                </div>
+                                                <p>An overview of your CMS's features and sections.</p>
+                                            </div>
+                                        </a>
+                                        <a href="#create" class="content12_metatag-item">
+                                            <h1 class="metatag-item_number text-color-accent">3.</h1>
+                                            <div class="metatag-item-text">
+                                                <div class="margin-bottom">
+                                                    <h4>Create and manage content</hd>
+                                                </div>
+                                                <p>How to create and edit your site's content.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="start" class="section">
+                <div class="padding-global">
+                    <div class="container-large">
+                        <div class="padding-section-large">
+                            <div class="content10_component">
+                                <div class="margin-bottom">
+                                    <div class="content10_content-wrapper">
+                                        <div class="text-rich-text w-richtext">
+                                            <h1 class="rich-text-numer">1.</h1>
+                                            <h2>Getting started</h2>
+                                            <h3>Accessing the Editor</h3>
+                                            <div class="list-group">
+                                                <p class="list-item-ordered">Add <code>?edit</code> to the end of your website's URL (e.g., <a href="http://zax.ai?edit" class="text-style-highlighted" target="_blank">http://zax.ai?edit</a>)</p>
+                                                <p class="list-item-ordered">Bookmark this URL for future use.</p>
+                                                <p class="list-item-ordered">Log in using your credentials, or follow the on-screen instructions to set up your Editor account.</p>
+                                            </div>
+                                            <h3>Editor's toolbar</h3>
+                                            <p>You can navigate your site's content using the tabs at the bottom of the screen:</p>
+                                            <div class="list-group">
+                                                <p class="list-item">Pages</p>
+                                                <p class="list-item">Collections</p>
+                                                <p class="list-item">Forms</p>
+                                                <p class="list-item">Settings</p>
+                                                <p class="list-item">Help</p>
+                                                <p class="list-item">Logout</p>
+                                            </div>
+                                            <p>Most of your day-to-day updates will be made through the <strong>Pages</strong> and <strong>Collections</strong> tabs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="learn" class="section color-scheme-4">
+                <div class="padding-global">
+                    <div class="container-large">
+                        <div class="padding-section-large">
+                            <div class="text-rich-text">
+                                <h1 class="rich-text-numer">2.</h1>
+                                <h2>Know your CMS</h2>
+                                <h3>Pages</h3>
+                                <p>The Pages panel is where you'll find all the static content of your website. This includes:</p>
+                                <div class="list-group">
+                                    <p class="list-item"><strong>Static pages</strong>: these are pages I built outside of your Collections. These include your homepage, About page, Services/Products, Contact, etc. </p>
+                                    <p class="list-item"><strong>Dynamic pages</strong>: these are pages (and sometimes sections within pages) generated from your Collections. On your site these are Privacy Policy Terms of Use and the FAQ section on the homepage.</p>
+                                </div>
+                                <img src="/images/figure-1.png" alt="Pages interface" style="display: block; margin: 2rem auto; max-width: 70%;">
+                                <h4>Manage page settings</h4>
+                                <p>When you hover your cursor over a page in the list, you'll see a button labeled "Settings" appear. There, you can manage vital page settings like <strong>SEO meta title and description, Open Graph title and description, and Open Graph image.</strong></p>
+                                <h5>SEO Settings</h5>
+                                <p>SEO stands for "search engine optimization." It's the practice of building and improving websites in order to improve their chances of being found through search engines like Google, Bing, etc.</p>
+                                <p>In each page's settings, you can create and edit the following page-specific SEO settings:</p>
+                                <p class="list-item-ordered"><strong>Meta title</strong>: A page's title plays a <em>very</em> important role in its visibility and performance in search engines, both because it a) tells search engines what the page is about and b) is what search engine users will click on to reach your site. Be sure to include the types of words people use to describe your business in the title. Ideally, a page's title should be about 55 to 60 characters long.</p>
+                                <p class="list-item-ordered"><strong>Meta description</strong>: The description allows you to add a little more detail about your page (about 150 characters of it). It's important for search, but not nearly as important as the title.</p>
+                                <p>The Search Result Preview sections shows you what the content you've entered will look like on a Google search results page. If any of your text gets cut off in the preview, you'll want to trim your text to fit. </p>
+                                <h5>Open Graph (OG) Settings</h5>
+                                <p>Open Graph settings are very similar to SEO settings, except that they're used by social networks like Facebook, Twitter, and LinkedIn.</p>
+                                <p>In most cases, you can just tick the checkbox to use the same content as your SEO title and description. But feel free to customize it, if you'd like.</p>
+                                <p>Open Graph also allows you to specify an image to be displayed along with your title and description. </p>
+                                <h3>Collections</h3>
+                                <p>When you click on a Collection, you'll be taken to a new tab with a list of all the items in the Collection.</p>
+                                <p>On your site, the Collections are:</p>
+                                <div class="list-group">
+                                    <p class="list-item">FAQs</p>
+                                    <p class="list-item">Privacy Policy</p>
+                                    <p class="list-item">Terms of Use</p>
+                                </div>
+                                <h4>Forms</h4>
+                                <p>From here, you'll be able to view some basic information from forms people have submitted, but it's most useful as a place for you to download the complete form data. In the downloaded CSV file (a format that works with all the major spreadsheet apps), you'll be able to see all the submitted info.</p>
+                                <p>Note that your form submissions are also being collected on a separate spreadsheet, and on Trilogy's  HubSpot account. You should have received the direct link from me. If you need access again, please contact me.</p>
+                                <h5>Update the Privacy Policy / Terms of Use</h5>
+                                <p><strong>‍</strong>These pages are made with Rich Text fields, allowing you to style content (headings, lists, quotes, links, etc.) without needing classes or code.</p>
+                                <p>Each item follows the same structure:</p>
+                                <div class="list-group">
+                                    <p class="list-item"><strong>Title</strong>: The main heading at the top of the page (e.g., "Privacy Policy")</p>
+                                    <p class="list-item"><strong>Slug</strong>: Automatically generated based on the title</p>
+                                    <p class="list-item"><strong>Last updated</strong>: Tracks when the document was last modified</p>
+                                    <p class="list-item"><strong>Content</strong>: The legal body. You can add text elements but <strong>cannot</strong> insert images or videos.</p>
+                                </div>
+                                <img src="/images/figure-3.png" alt="Privacy Policy interface" style="display: block; margin: 2rem auto; max-width: 70%;">
+                                <h5>Update FAQ Section</h5>
+                                <p><strong>‍</strong>To create a new FAQ:</p>
+                                <div class="list-group">
+                                    <p class="list-item-ordered">Click <strong>+ New</strong> in the FAQ Collection</p>
+                                    <p class="list-item-ordered">Fill in each field (pay attention to any help text)</p>
+                                </div>
+                                <div class="list-group">
+                                    <p class="list-item"><strong>Name</strong>: Internal reference only (not shown on site)</p>
+                                    <p class="list-item"><strong>Slug</strong>: Created from the Name</p>
+                                    <p class="list-item"><strong>Question</strong>: The visible FAQ question</p>
+                                    <p class="list-item"><strong>Answer</strong>: The visible FAQ answer</p>
+                                    <p class="list-item"><strong>Order</strong>: Controls the display order (lowest appears first)</p>
+                                    <p class="list-item"><strong>Show/Hide</strong>: Use this toggle to control if the item is shown on the live site</p>
+                                </div>
+                                <p><strong>To hide the entire FAQ section</strong>, make sure all toggles are set to "off." If any are on, the section will appear and display only those active items.</p>
+                                <img src="/images/figure-2.png" alt="FAQ interface" style="display: block; margin: 2rem auto; max-width: 70%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="create" class="section">
+                <div class="padding-global">
+                    <div class="container-large">
+                        <div class="padding-section-large">
+                            <div class="content8_component">
+                                <div class="margin-bottom">
+                                    <div class="content8_content-wrapper">
+                                        <div class="margin-bottom">
+                                            <h1 class="rich-text-numer">3.</h1>
+                                            <h2>Create and manage content</h2>
+                                        </div>
+                                        <div class="text-rich-text">
+                                            <p>Your site uses Webflow's CMS, which includes two types of content: static <strong>Pages</strong> and dynamic <strong>Collections</strong>. You'll manage both through the Webflow Editor.</p>
+                                            <p>All changes—whether to text, images, links, or Collection items—<strong>must be published</strong> before they appear live on the site.</p>
+                                            <img src="/images/figure-4.png" alt="Webflow Editor interface" style="display: block; margin: 2rem auto; max-width: 70%;">
+                                            <h4>Pages (Static Content)‍</h4>
+                                            <p>These include your Homepage, Contact page, and Acquisition Criteria page.</p>
+                                            <div class="list-group">
+                                                <p class="list-item">You can update existing text, images, buttons, and links</p>
+                                                <p class="list-item">You cannot add or remove sections—only edit what's already there</p>
+                                            </div>
+                                            <h4>Collection Lists (Dynamic Content)</h4>
+                                            <p>Content from Collections can only be edited from the <strong>Collections</strong> tab. Changes made directly to a Rich Text block or section on the page won't override the Collection content.</p>
+                                            <h5>Update the Privacy Policy / Terms of Use</h5>
+                                            <p><strong>‍</strong>These pages are made with Rich Text fields, allowing you to style content (headings, lists, quotes, links, etc.) without needing classes or code.</p>
+                                            <p>Each item follows the same structure:</p>
+                                            <div class="list-group">
+                                                <p class="list-item"><strong>Title</strong>: The main heading at the top of the page (e.g., "Privacy Policy")</p>
+                                                <p class="list-item"><strong>Slug</strong>: Automatically generated based on the title</p>
+                                                <p class="list-item"><strong>Last updated</strong>: Tracks when the document was last modified</p>
+                                                <p class="list-item"><strong>Content</strong>: The legal body. You can add text elements but <strong>cannot</strong> insert images or videos.</p>
+                                            </div>
+                                            <img src="/images/figure-3.png" alt="Privacy Policy interface" style="display: block; margin: 2rem auto; max-width: 70%;">
+                                            <h5>Update FAQ Section</h5>
+                                            <p><strong>‍</strong>To create a new FAQ:</p>
+                                            <div class="list-group">
+                                                <p class="list-item-ordered">Click <strong>+ New</strong> in the FAQ Collection</p>
+                                                <p class="list-item-ordered">Fill in each field (pay attention to any help text)</p>
+                                            </div>
+                                            <div class="list-group">
+                                                <p class="list-item"><strong>Name</strong>: Internal reference only (not shown on site)</p>
+                                                <p class="list-item"><strong>Slug</strong>: Created from the Name</p>
+                                                <p class="list-item"><strong>Question</strong>: The visible FAQ question</p>
+                                                <p class="list-item"><strong>Answer</strong>: The visible FAQ answer</p>
+                                                <p class="list-item"><strong>Order</strong>: Controls the display order (lowest appears first)</p>
+                                                <p class="list-item"><strong>Show/Hide</strong>: Use this toggle to control if the item is shown on the live site</p>
+                                            </div>
+                                            <p><strong>To hide the entire FAQ section</strong>, make sure all toggles are set to "off." If any are on, the section will appear and display only those active items.</p>
+                                            <img src="/images/figure-2.png" alt="FAQ interface" style="display: block; margin: 2rem auto; max-width: 70%;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="tutorials" class="section color-scheme-3">
+                <div class="padding-global">
+                    <div class="container-large">
+                        <section class="section_gallery21">
+                            <div class="padding-global">
+                                <div class="container-large">
+                                    <div class="padding-section-large">
+                                        <div class="gallery21_component">
+                                            <div class="margin-bottom">
+                                                <div class="max-width-large">
+                                                    <div class="margin-bottom">
+                                                        <h2>Useful videos</h2>
+                                                    </div>
+                                                    <p>These short tutorials dive a little deeper into the Editor interface.</p>
+                                                </div>
+                                            </div>
+                                            <div class="gallery21_slider">
+                                                <div class="gallery21_mask">
+                                                    <div class="gallery21_slide">
+                                                        <a href="#" class="gallery21_lightbox-link" data-video="https://www.youtube.com/embed/ognLnWoIl8c" data-title="Introduction">
+                                                            <div class="gallery21_image-wrapper">
+                                                                <img src="https://cdn.prod.website-files.com/67f379ff101fa55422074022/67f3d01c8613626076426037_Frame%2074.png" alt="" class="gallery21_image"/>
+                                                            </div>
+                                                            <h4>Introduction</h4>
+                                                        </a>
+                                                    </div>
+                                                    <div class="gallery21_slide">
+                                                        <a href="#" class="gallery21_lightbox-link" data-video="https://www.youtube.com/embed/lnV24z6pTfU" data-title="Pages">
+                                                            <div class="gallery21_image-wrapper">
+                                                                <img src="https://cdn.prod.website-files.com/67f379ff101fa55422074022/67f3d01b41ad310034ad10f3_Frame%2075.png" alt="" class="gallery21_image"/>
+                                                            </div>
+                                                            <h4>Pages</h4>
+                                                        </a>
+                                                    </div>
+                                                    <div class="gallery21_slide">
+                                                        <a href="#" class="gallery21_lightbox-link" data-video="https://www.youtube.com/embed/QcdJ6eIykP4" data-title="Collections">
+                                                            <div class="gallery21_image-wrapper">
+                                                                <img src="https://cdn.prod.website-files.com/67f379ff101fa55422074022/67f3d01aa08b4143422cc155_Frame%2076.png" alt="" class="gallery21_image"/>
+                                                            </div>
+                                                            <h4>Collections</h4>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close">&times;</button>
+            <iframe class="lightbox-video" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 class="lightbox-title"></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
