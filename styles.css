@@ -642,7 +642,7 @@ label {
   display: block;
 }
 
-.text-color-accent, .rich-text-number. text-color-accent {
+.text-color-accent, .rich-text-number.text-color-accent {
   color: var(--colors--starship);
 }
 
