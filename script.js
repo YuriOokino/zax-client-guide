@@ -120,3 +120,24 @@ lightbox.addEventListener('click', (e) => {
         document.body.style.overflow = '';
     }
 });
+
+// Navbar animation
+const navbar = document.getElementById('navbar');
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', () => {
+  let scrollTop = window.scrollY;
+
+  console.log("Scroll event fired. Current scroll position:", scrollTop);
+
+  if (scrollTop > lastScrollTop && scrollTop > 50) {
+    console.log("Scrolling down – shrinking navbar.");
+    navbar.classList.add('shrink');
+  } else {
+    console.log("Scrolling up – expanding navbar.");
+    navbar.classList.remove('shrink');
+  }
+
+  lastScrollTop = scrollTop;
+});
+

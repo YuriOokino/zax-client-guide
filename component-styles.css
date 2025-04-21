@@ -33,6 +33,17 @@ body {
   z-index: 1000;
   display: flex;
   align-items: center;
+  transition: 0.3s;
+}
+
+#navbar.shrink {
+  min-height: 0;
+  height: 3rem;
+  opacity: .6;
+}
+
+#navbar.shrink .navbar6_menu {
+  opacity: 0;
 }
 
 .navbar6_container {
@@ -49,6 +60,7 @@ body {
   flex-grow: 1;
   align-items: center;
   height: 100%;
+  transition: opacity 0.4s;
 }
 
 .navbar6_menu-left {
@@ -75,6 +87,8 @@ body {
 .navbar6_menu a:hover {
   color: var(--colors--starship);
 }
+
+
 
 /* Main content */
 .main-wrapper {
