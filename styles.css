@@ -122,9 +122,8 @@ body {
 /* Container styles */
 .container-large {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
 .container-medium {
@@ -643,9 +642,11 @@ label {
   display: block;
 }
 
-.text-color-accent {
+.text-color-accent, .rich-text-number.text-color-accent {
   color: var(--colors--starship);
 }
+
+
 
 /* Lists */
 ol {
